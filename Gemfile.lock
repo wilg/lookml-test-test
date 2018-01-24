@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/looker/lookml-test-runner.git
-  revision: 6f250e79d9036fa0daf035ad781159d4eb9b86b7
+  revision: 52e62feddc8bbcdc419a77c974414e5c37a9c390
   specs:
-    lookml-test (0.1.0)
+    lookml-test-runner (0.1.0)
       dotenv
       looker-sdk
 
@@ -25,7 +25,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  lookml-test!
+  lookml-test-runner!
   minitest
 
 BUNDLED WITH
