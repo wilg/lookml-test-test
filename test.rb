@@ -4,7 +4,7 @@ require 'lookml/test'
 
 class TestLookML < Minitest::Test
   def setup
-    @runner = LookMLTest::Runner.runner
+    @runner = LookML::Test::Runner.runner
   end
 
   def test_basic
