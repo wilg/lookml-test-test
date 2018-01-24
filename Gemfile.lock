@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/looker/lookml-test-runner.git
-  revision: bc5f6baab1bf421e251f42bf2922ce4e3144270f
+  revision: 6f250e79d9036fa0daf035ad781159d4eb9b86b7
   specs:
     lookml-test (0.1.0)
       dotenv
@@ -15,7 +15,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     looker-sdk (0.0.5)
       sawyer (= 0.6)
-    minitest (5.10.2)
+    minitest (5.11.1)
     multipart-post (2.0.0)
     sawyer (0.6.0)
       addressable (~> 2.3.5)
