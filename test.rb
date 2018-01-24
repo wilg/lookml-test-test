@@ -2,7 +2,7 @@ require "bundler/setup"
 require "minitest/autorun"
 require 'lookml/test'
 
-class TestMeme < Minitest::Test
+class TestLookML < Minitest::Test
   def setup
     sdk = LookerSDK::Client.new(
       client_id: ENV['LOOKER_TEST_RUNNER_CLIENT_ID'],
@@ -25,6 +25,6 @@ class TestMeme < Minitest::Test
       sorts: ["users.id asc"],
       limit: 1,
     })
-    assert_equal result.data[0]["users.id"].value 1
+    assert_equal(result.data[0]["users.id"].value, 1)
   end
 end
