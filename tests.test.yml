@@ -1,0 +1,9 @@
+- test: a quick smoke test
+  query:
+    model: lookml_test_test_fun
+    view: users
+    fields: ["users.id"]
+    sorts: ["users.id asc"]
+    limit: 1
+  assert:
+    - success
