@@ -5,7 +5,7 @@ view: users {
   dimension: id {
     primary_key: yes
     type: number
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.name ;;
   }
 
   dimension: age {
