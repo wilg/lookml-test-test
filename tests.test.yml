@@ -7,3 +7,12 @@
     limit: 1
   assert:
     - success
+- test: this one should fail
+  query:
+    model: lookml_test_test_fun
+    view: users
+    fields: ["users.NOPE"]
+    sorts: ["users.id asc"]
+    limit: 1
+  assert:
+    - success
